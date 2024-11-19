@@ -962,6 +962,14 @@ video {
   gap: 2.5rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1051,6 +1059,16 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -1163,6 +1181,11 @@ video {
 
   .md\:grid-rows-\[repeat\(3\2c _0\.5fr\)\] {
     grid-template-rows: repeat(3, 0.5fr);
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
