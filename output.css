@@ -626,6 +626,10 @@ video {
   grid-row: span 2 / span 2;
 }
 
+.row-span-1 {
+  grid-row: span 1 / span 1;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -720,6 +724,22 @@ video {
 
 .grid-rows-5 {
   grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.grid-rows-\[1\.5fr\2c 1fr\2c 1fr\] {
+  grid-template-rows: 1.5fr 1fr 1fr;
+}
+
+.grid-rows-\[auto\2c 1fr\2c 1fr\] {
+  grid-template-rows: auto 1fr 1fr;
+}
+
+.grid-rows-\[auto\2c auto\2c 1fr\] {
+  grid-template-rows: auto auto 1fr;
+}
+
+.grid-rows-\[auto\2c auto\2c auto\] {
+  grid-template-rows: auto auto auto;
 }
 
 .flex-col {
