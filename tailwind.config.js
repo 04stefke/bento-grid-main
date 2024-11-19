@@ -19,7 +19,7 @@ module.exports = {
 				paragraph: "18px",
 			},
 			fontFamily: {
-				sans: ["DM Sans", "sans-serif"], // DM Sans as your default sans-serif
+				sans: ["DMSans", "sans-serif"], // DM Sans as your default sans-serif
 			},
 			fontWeight: {
 				normal: 400,

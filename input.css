@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "DMSans";
+		font-style: normal;
+		font-weight: 400;
+		src: url(./assets/fonts/static/DMSans-Regular.ttf) format("truetype");
+	}
+	@font-face {
+		font-family: "DMSans";
+		font-style: normal;
+		font-weight: 500;
+		src: url(./assets/fonts/static/DMSans-Medium.ttf) format("truetype");
+	}
+}
