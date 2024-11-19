@@ -1287,6 +1287,11 @@ video {
     padding-bottom: 2rem;
   }
 
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .sm\:pl-8 {
     padding-left: 2rem;
   }
