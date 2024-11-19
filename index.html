@@ -14,7 +14,7 @@
 		<title>Frontend Mentor | Bento grid</title>
 	</head>
 	<body
-		class="flex m-auto w-screen lg:h-screen h-min-screen items-center justify-center"
+		class="flex m-auto w-screen lg:h-screen h-min-screen items-center justify-center bg-gray-50"
 	>
 		<section
 			class="grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 lg:grid-rows-[repeat(3,_0.5fr)] sm:grid-rows-[repeat(4,_0.8fr)] auto-rows-max gap-5 place-content-center h-4/5 w-4/5"
@@ -41,7 +41,9 @@
 				/>
 				<p class="text-2xl">Manage multiple accounts and platforms.</p>
 			</div>
-			<div class=" px-10 py-2 flex flex-col items-center sm:items-start gap-4 sm:row-start-2 sm:row-span-1 lg:col-start-3 sm:col-start-2 bg-yellow-500 rounded-md overflow-hidden">
+			<div
+				class="px-10 py-2 flex flex-col items-center sm:items-start gap-4 sm:row-start-2 sm:row-span-1 lg:col-start-3 sm:col-start-2 bg-yellow-500 rounded-md overflow-hidden"
+			>
 				<p class="text-xl">Maintain a consistent posting schedule.</p>
 				<img
 					src="./assets/images/illustration-consistent-schedule.webp"
@@ -50,7 +52,7 @@
 				/>
 			</div>
 			<div
-				class="flex flex-col items-center gap-4 sm:block  sm:row-span-2  bg-purple-100 text-2xl sm:relative overflow-hidden py-2 px-4 sm:py-8 sm:pl-8 rounded-md"
+				class="flex flex-col items-center gap-4 sm:block sm:row-span-2 bg-purple-100 text-2xl sm:relative overflow-hidden py-2 px-4 sm:py-8 sm:pl-8 rounded-md"
 			>
 				<p class="">Schedule to social media.</p>
 				<img
@@ -73,12 +75,13 @@
 				/>
 				<p>Grow followers with non-stop content.</p>
 			</div>
-			<div class="sm:row-start-3 sm:row-span-1 lg:col-start-2 sm:col-start-1">
-				<p><span>>56%</span> faster audience growth</p>
+			<div class="sm:row-start-3 sm:row-span-1 lg:col-start-2 sm:col-start-1 flex flex-col items-center sm:justify-between px-5 py-5 bg-white">
+				<p class="text-3xl font-bold">>56%</p>
+				<p>faster audience growth</p>
 				<img
 					src="./assets/images/illustration-audience-growth.webp"
 					alt=""
-					class="w-40"
+					class="w-32"
 				/>
 			</div>
 			<div
