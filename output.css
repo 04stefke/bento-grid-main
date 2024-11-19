@@ -614,6 +614,10 @@ video {
   width: 100vw;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .auto-rows-max {
   grid-auto-rows: max-content;
 }
