@@ -13,69 +13,64 @@
 		<link href="./output.css" rel="stylesheet" />
 		<title>Frontend Mentor | Bento grid</title>
 	</head>
-	<body
-		class="grid grid-cols-4 grid-rows-3 w-screen h-screen place-content-center"
-	>
-		<div
-			class="row-span-2 flex flex-col gap-5 bg-yellow-100 w-60 px-5 py-10 rounded-md"
-		>
-			<p class="text-2xl font-bold">
-				Create and schedule content
-				<span class="text-purple-500 italic">quicker.</span>
-			</p>
-			<img
-				src="./assets/images/illustration-create-post.webp"
-				alt=""
-				class="w-40"
-			/>
-		</div>
+	<body class="flex m-auto w-screen h-screen items-center justify-center">
+		<section class="grid grid-cols-4 grid-rows-3 gap-10 place-content-center h-4/5 w-4/5">
+			<div
+				class="row-span-2 flex flex-col gap-5 bg-yellow-100 w-60 px-5 py-10 rounded-md"
+			>
+				<p class="text-2xl font-bold">
+					Create and schedule content
+					<span class="text-purple-500 italic">quicker.</span>
+				</p>
+				<img
+					src="./assets/images/illustration-create-post.webp"
+					alt=""
+					class="w-40"
+				/>
+			</div>
 
-		<div
-			class="col-span-2 flex flex-col items-center w-60 text-center bg-purple-500 rounded-md text-white"
-		>
-			<h2 class="text-3xl">
-				Social Media <span class="text-yellow-500">10x</span>
-				<span class="italic">Faster</span> with AI
-			</h2>
-			<img
-				src="./assets/images/illustration-five-stars.webp"
-				alt=""
-				class="w-32"
-			/>
-			<p class="text-sm">Over 4,000 5-star reviews</p>
-		</div>
-		<div class="bg-purple-100 text-2xl relative">
-			<p>Schedule to social media.</p>
-			<img
-				src="./assets/images/illustration-schedule-posts.webp"
-				alt=""
-				class="w-60 absolute left-40"
-			/>
-			<p class="text-sm absolute bottom-0">
-				Optimize post timings to publish content at the perfect time for your
-				audience.
-			</p>
-		</div>
-		<div>
-			<p>Manage multiple accounts and platforms.</p>
-		</div>
-		<div>
-			<p>Maintain a consistent posting schedule.</p>
-		</div>
+			<div
+				class="col-span-2 flex flex-col items-center text-center bg-purple-500 rounded-md text-white"
+			>
+				<h2 class="text-3xl">
+					Social Media <span class="text-yellow-500">10x</span>
+					<span class="italic">Faster</span> with AI
+				</h2>
+				<img
+					src="./assets/images/illustration-five-stars.webp"
+					alt=""
+					class="w-32"
+				/>
+				<p class="text-sm">Over 4,000 5-star reviews</p>
+			</div>
+			<div class="row-span-2 bg-purple-100 text-2xl relative overflow-hidden">
+				<p>Schedule to social media.</p>
+				<img
+					src="./assets/images/illustration-schedule-posts.webp"
+					alt=""
+					class="w-60 absolute left-20"
+				/>
+				<p class="text-sm absolute bottom-0">
+					Optimize post timings to publish content at the perfect time for your
+					audience.
+				</p>
+			</div>
+			<div>
+				<p>Manage multiple accounts and platforms.</p>
+			</div>
+			<div>
+				<p>Maintain a consistent posting schedule.</p>
+			</div>
 
-		<div>
-			<p>Write your content using AI.</p>
-		</div>
-		<div>
-			<p>>56% faster audience growth</p>
-		</div>
-		<div>
-			<p>Grow followers with non-stop content.</p>
-		</div>
-		<div class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-			Coded by <a href="#">Your Name Here</a>.
-		</div>
+			<div class="row-span-2">
+				<p>Write your content using AI.</p>
+			</div>
+			<div>
+				<p>>56% faster audience growth</p>
+			</div>
+			<div class="col-span-2">
+				<p>Grow followers with non-stop content.</p>
+			</div>
+		</section>
 	</body>
 </html>
